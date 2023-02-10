@@ -1,3 +1,9 @@
+#so keys aren't passed in the code
+config.py
+
+#mac ds store files
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
