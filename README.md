@@ -9,13 +9,8 @@ This project is a part of the [Data Science Working Group](http://datascience.co
 #### -- Project Status: [Active, On-Hold, Completed]
 
 ## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
-
-### Partner
-* [Name of Partner organization/Government department etc..]
-* Website for partner
-* Partner contact: [Name of Contact], [slack handle of contact if any]
-* If you do not have a partner leave this section out
+This project is dual purposed; one to help me hone and develope my new skills in extracting data from APIs and analyzing that data and two to help me more effeciently search for jobs that might be a good match to those skills. 
+   The purpose of this project is ________. (Describe the main goals of the project and potential civic impact.   Limit to a short paragraph, 3-6 Sentences)
 
 ### Methods Used
 * Inferential Statistics
@@ -25,17 +20,15 @@ The purpose of this project is ________. (Describe the main goals of the project
 * etc.
 
 ### Technologies
-* R 
+* Google jobs API 
 * Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
-* etc. 
+* Pandas
+* MatPlotLib
+* NLTK
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+My goal with the project is develop a repeatable and easily modifiable script to pull current job listings 
+   (Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and     hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to       solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things    here)
 
 ## Needs of this project
 
