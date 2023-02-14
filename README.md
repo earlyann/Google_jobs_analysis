@@ -1,23 +1,15 @@
-Analysis of data from Kaggle dataset:
-https://www.kaggle.com/datasets/diegosilvadefrana/2023-data-scientists-jobs-descriptions
+Analysis of Google jobs data from SerpAPI
 
-*Instructions: Click on the raw button in the upper right hand corner of this box.  Copy and paste the template into the README.md document on your github.  Fill in the titles, information and links where prompted! Feel free to stray a bit to suit your project but try to stick to the format as closely as possible for consistency across DSWG projects.*
-
-# Project Name
-This project is a part of the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) at [Code for San Francisco](http://www.codeforsanfrancisco.org).  Other DSWG projects can be found at the [main GitHub repo](https://github.com/sfbrigade/data-science-wg).
-
-#### -- Project Status: [Active, On-Hold, Completed]
+#### -- Project Status: [In process]
 
 ## Project Intro/Objective
-This project is dual purposed; one to help me hone and develope my new skills in extracting data from APIs and analyzing that data and two to help me more effeciently search for jobs that might be a good match to those skills. 
-   The purpose of this project is ________. (Describe the main goals of the project and potential civic impact.   Limit to a short paragraph, 3-6 Sentences)
+This project is dual purposed; one to help me hone and develope my new skills in extracting data from APIs, data analyzation using natural language processing and data vizualization. The second purpose being to help me more effeciently search for jobs that might be a good match to those skills. 
+
 
 ### Methods Used
-* Inferential Statistics
 * Machine Learning
 * Data Visualization
-* Predictive Modeling
-* etc.
+
 
 ### Technologies
 * Google jobs API 
@@ -27,7 +19,12 @@ This project is dual purposed; one to help me hone and develope my new skills in
 * NLTK
 
 ## Project Description
-My goal with the project is develop a repeatable and easily modifiable script to pull current job listings 
+The goal of this project is to practice my developing data skills which I hope will land me a job, on a dataset that will be helpful in finding me a job! 
+
+The first step of the project was to develop a repeatable and easily modifiable script to pull current job listings from the SerpAPI Google jobs and listings APIs. The first API call is nested in a function taking the desired job title as an arguement. I designed the code as a function so I could easily search for different titles and pull those to a data frame. The script then uses the job id data pulled from the first call to pulling in listing specific information. 
+
+Then to use Python's Natural Language Tool Kit along with Pandas methods and functions to make navigating and following up on those job listings quick and efficient.
+
    (Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and     hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to       solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things    here)
 
 ## Needs of this project
@@ -39,19 +36,7 @@ My goal with the project is develop a repeatable and easily modifiable script to
 - writeup/reporting
 - etc. (be as specific as possible)
 
-## Getting Started
 
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-
-    *If using offline data mention that and how they may obtain the data from the froup)*
-    
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
-
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  
-
-5. Follow setup [instructions](Link to file)
 
 ## Featured Notebooks/Analysis/Deliverables
 * [Notebook/Markdown/Slide Deck Title](link)
