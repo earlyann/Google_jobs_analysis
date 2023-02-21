@@ -1,4 +1,4 @@
-#Analysis of Google Jobs Data from SERP API
+#Exploring the Potential of SERPAPI.com's Google Jobs API for Using Python and NLTK
 
 ##Project Overview
 This project is aimed at developing and honing skills in data extraction from APIs, data analysis using natural language processing, and data visualization. The project has a dual purpose, the first being to help the author acquire new skills, and the second to facilitate an efficient search for jobs matching those newly acquired skills.
