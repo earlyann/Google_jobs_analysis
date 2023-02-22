@@ -42,6 +42,11 @@ The project is still in progress.
 -Data processing/cleaning
 -Writeup/reporting
 
+###Output
+- Notebook containing the API functions and to call and coallate the data -       https://github.com/earlyann/Google_jobs_analysis/blob/1a64f36ebc6f76febb83c80e1fd7908dd2c016d1/google_jobs_api.ipynb
+- Notebook containing the daily analysis and formatting including visualizations https://github.com/earlyann/Google_jobs_analysis/blob/1a64f36ebc6f76febb83c80e1fd7908dd2c016d1/data_jobs.ipynb
+- Written analysis of daily findings, method efficacy and cumulative findings. 
+
 ###Conclusion
 The project aims to showcase the potential of SERP API's Google Jobs API for job listings data analysis. With the help of Python and NLTK, this project aims to provide valuable insights for job seekers to efficiently navigate the job market.
 
