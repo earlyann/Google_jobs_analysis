@@ -1,12 +1,12 @@
-#Exploring and Analyzing SERPAPI.com's Google Jobs API Using Python and NLTK
+# Exploring and Analyzing SERPAPI.com's Google Jobs API Using Python and NLTK
 
-##Project Overview
-This project is aimed at developing and honing skills in data extraction from APIs, data analysis using natural language processing, and data visualization. The project has a dual purpose, the first being to help the author acquire new skills, and the second to facilitate an efficient search for jobs matching those newly acquired skills.
+## Project Overview
+This project is aimed at developing and honing skills in data extraction from APIs, data analysis using natural language processing, and data visualization. The purpose of the project is to facilitate an efficient daily search for jobs matching the skills I want to use in employement as well as to analyze any trends in the aggregated data, as well as to explore the Natural Language Toolkit platform for Python. 
 
-###Project Objective
+### Project Objective
 The goal of this project is to explore the potential of SERP API's Google Jobs API for acquiring job listings data for analysis. The project aims to design a repeatable, scalable, and easily modifiable script to pull the latest job listings data and analyze the data using natural language processing and data visualization.
 
-###Methods Used
+### Methods Used
 -Data Extraction
 -Data Exploration
 -Data Cleaning
@@ -15,14 +15,14 @@ The goal of this project is to explore the potential of SERP API's Google Jobs A
 -Named Entity Recognition
 -Data Visualization
 
-###Technologies
+### Technologies
 -Python
 -SERP API's Google Jobs API
 -Pandas
 -Matplotlib
 -Natural Language Tool Kit (NLTK)
 
-###Project Description
+### Project Description
 This project begins with the development of a repeatable, scalable, and easily modifiable script to pull current job listings from SERP API's Google Jobs API. SERP API's provides an easy-to-use, RESTful API that returns JSON formatted search engine results.
 
 The script utilizes two separate API calls. The first API call is nested in a function that takes the desired job title as an argument. This function is designed to allow easy search for different job titles and pull those into a data frame. The script then uses the job ID data pulled from the first call to extract the listing-specific information.
@@ -33,21 +33,23 @@ The analytical work is performed in a separate notebook. Here, the data is explo
 
 The author then explores Python's Natural Language Tool Kit along with Pandas methods and functions to navigate and follow up on the job listings. The job descriptions are tokenized to find the author's desired keywords such as "python," "pandas," "visualization," "SQL," and "tableau." NLTK is then used to parse and summarize the job descriptions to make them shorter. NLTK's sentiment analyzer is run on the job descriptions, and the author also uses the NLTK concordance function to look for salary information and write it to a new column. The author also explores named entity recognition.
 
-##Project Status
+## Project Status
 The project is still in progress.
 
-###Needs of the Project
+### Needs of the Project
 -API data extraction
 -Data exploration/descriptive statistics
 -Data processing/cleaning
 -Writeup/reporting
 
-###Output
-- Notebook containing the API functions and to call and coallate the data -       https://github.com/earlyann/Google_jobs_analysis/blob/1a64f36ebc6f76febb83c80e1fd7908dd2c016d1/google_jobs_api.ipynb
-- Notebook containing the daily analysis and formatting including visualizations https://github.com/earlyann/Google_jobs_analysis/blob/1a64f36ebc6f76febb83c80e1fd7908dd2c016d1/data_jobs.ipynb
+### Output
+- Notebook containing the API functions and to call and coallate the data:       https://github.com/earlyann/Google_jobs_analysis/blob/1a64f36ebc6f76febb83c80e1fd7908dd2c016d1/google_jobs_api.ipynb
+- Notebook containing the daily analysis and formatting including visualizations: https://github.com/earlyann/Google_jobs_analysis/blob/1a64f36ebc6f76febb83c80e1fd7908dd2c016d1/data_jobs.ipynb
+- Folder containing the daily job listing overview visualizations
+- Notebook for the analysis of the cumulative data collected:
 - Written analysis of daily findings, method efficacy and cumulative findings. 
 
-###Conclusion
+### Conclusion
 The project aims to showcase the potential of SERP API's Google Jobs API for job listings data analysis. With the help of Python and NLTK, this project aims to provide valuable insights for job seekers to efficiently navigate the job market.
 
 
