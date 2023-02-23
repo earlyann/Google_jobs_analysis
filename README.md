@@ -43,10 +43,10 @@ The project is still in progress.
 -Writeup/reporting
 
 ### Output
-- Notebook containing the API functions and to call and coallate the data:       https://github.com/earlyann/Google_jobs_analysis/blob/1a64f36ebc6f76febb83c80e1fd7908dd2c016d1/google_jobs_api.ipynb
-- Notebook containing the daily analysis and formatting including visualizations: https://github.com/earlyann/Google_jobs_analysis/blob/1a64f36ebc6f76febb83c80e1fd7908dd2c016d1/data_jobs.ipynb
-- Folder containing the daily job listing overview visualizations
-- Notebook for the analysis of the cumulative data collected:
+- Notebook containing the API functions and to call and coallate the data: google_jobs_api.ipynb
+- Notebook containing the daily analysis and formatting including visualizations: data_jobs.ipynb
+- Folder containing the daily job listing overview visualizations: 
+- Notebook for the analysis of the cumulative data collected: compiled_data_analysis.ipynb
 - Written analysis of daily findings, method efficacy and cumulative findings. 
 
 ### Conclusion
