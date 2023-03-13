@@ -23,11 +23,15 @@ The main objective of this project is to explore SERP API's Google Jobs API for 
 -Natural Language Tool Kit (NLTK)
 
 ### Project Description
-This project begins with the development of a repeatable, scalable, and easily modifiable script to pull current job listings from SERP API's Google Jobs API, https://serpapi.com/google-jobs-api. This API provides an easy-to-use, RESTful API that returns JSON formatted search engine results.
+This project begins with the development of a repeatable, scalable, and easily modifiable function to pull current job listings from SERP API's Google Jobs API, https://serpapi.com/google-jobs-api. This API provides an easy-to-use, RESTful API that returns JSON formatted search engine results.
 
-The script utilizes two separate API calls. The first API call is nested in a function that takes the desired job title as an argument. This function is designed to allow easy search for different job titles and pull those into a data frame. For my purposes I made a call for both "Data Analyst" and "Operations Analyst" daily. The script then uses the job ID data pulled from the first call to extract the listing-specific information.
+The notebook utilizes two separate API calls. The first API call is nested in a function that takes the desired job title as an argument. This function is designed to allow easy search for different job titles and pull those into a data frame. For my purposes I made a call for both "Data Analyst" and "Operations Analyst" daily. The notebook then uses the job ID data pulled from the first call to extract the listing-specific information.
+
+![Screen Shot 2023-03-10 at 10 13 18 AM](https://user-images.githubusercontent.com/119711479/224853326-0cfc7c3f-9ab8-4fe6-b23f-39fc67405e4c.png)
 
 The second API call is built as another function that takes one or many data frames as an argument. This function is designed to request additional listing information, including company rating and rating source.
+
+![Screen Shot 2023-03-10 at 10 14 03 AM](https://user-images.githubusercontent.com/119711479/224853336-b1b799f2-91b5-459c-9cae-6940c7a53456.png)
 
 The analytical work is performed in separate notebooks. In the daily analysis, the data is explored using quick visualizations to give an overview of who is listing the jobs, the job titles, and where the jobs are being posted.
 
