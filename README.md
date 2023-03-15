@@ -40,7 +40,7 @@ The author then explores Python's Natural Language Tool Kit along with Pandas me
 The daily data is then complied and analyzed in the complied notebook. Here the effecacy of the NLTK methods are analyzed as well as trends from the endpoint data. 
 
 ## Project Status
-The project is still in progress.
+Complete
 
 ### Needs of the Project
 -API data extraction
